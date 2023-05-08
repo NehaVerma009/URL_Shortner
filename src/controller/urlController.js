@@ -8,7 +8,7 @@ const urlModel = require("../models/urlModel");
 
 const redisClient = redis.createClient(
   17983,//port
-  "redis-17983.c212.ap-south-1-1.ec2.cloud.redislabs.com",     //ip address
+  "redis-17983.c212.ap-south-1-1.ec2.cloud.redislabs.com",     //host name
   { no_ready_check: true}
 );
 
